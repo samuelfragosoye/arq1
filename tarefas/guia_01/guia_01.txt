@@ -1,0 +1,205 @@
+Samuel Fragoso - 902665
+
+GUIA_01
+MANUALMENTE
+
+01. Fazer as conversões de decimal para binário: 
+
+a.) 27(10)
+27/2=13 resto 1
+13/2=6  resto 1
+6/2 =3  resto 0
+3/2 =1  resto 1
+1/2 =0  resto 1
+RESULTADO: 11011(2)
+
+b.) 56(10)
+56/2=28 resto 0
+28/2=14 resto 0
+14/2=7  resto 0
+7/2 =3  resto 1
+3/2 =1  resto 1
+1/2 =0  resto 1
+RESULTADO: 111000(2)
+
+c.) 753(10)
+753/2=376 resto 1
+376/2=188 resto 0
+188/2= 94 resto 0
+94/2 = 47 resto 0
+47/2 = 23 resto 1
+23/2 = 11 resto 1
+11/2 =  5 resto 1 
+5/2  =  2 resto 1
+2/2  =  1 resto 0
+1/2  =  0 resto 1
+RESULTADO: 10 1111 0001(2)
+
+d.) 321(10)
+321/2=160 resto 1
+160/2= 80 resto 0
+80/2 = 40 resto 0
+40/2 = 20 resto 0
+20/2 = 10 resto 0
+10/2 =  5 resto 0
+5/2  =  2 resto 1
+2/2  =  1 resto 0
+1/2  =  0 resto 1
+RESULTADO: 1 0100 0001(2)
+
+e.) 366(10)
+366/2=183 resto 0
+183/2= 91 resto 1
+91/2 = 45 resto 1
+45/2 = 22 resto 1
+22/2 = 11 resto 0
+11/2 =  5 resto 1
+5/2  =  2 resto 1
+2/2  =  1 resto 0
+1/2  =  0 resto 1
+RESULTADO: 101101110(2)
+
+02.) Fazer as conversões de binário para decimal:
+
+a.) 10010(2)
+(1*2⁴)+(0*2³)+(0*2²)+(1*2¹)+(0*2⁰)
+16+0+0+2+0= 18(10)
+RESULTADO:  18(10)
+
+b.)10101(2)
+(1*2⁴)+(0*2³)+(1*2²)+(0*2¹)+(1*2⁰)
+16+0+4+0+1= 21(10)
+RESULTADO:  21(10)
+
+c.)10110(2)
+(1*2⁴)+(0*2³)+(1*2²)+(1*2¹)+(0*2⁰)
+16+0+4+2+0= 22(10)
+RESULTADO:  22(10)
+
+d.)101011(2)
+(1*2⁵)+(0*2⁴)+(1*2³)+(0*2²)+(1*2¹)+(1*2⁰)
+32+0+8+0+2+1= 43(10)
+RESULTADO:    43(10)
+
+e.)111011(2)
+(1*2⁵)+(1*2⁴)+(1*2³)+(0*2²)+(1*2¹)+(1*2⁰)
+32+16+8+0+2+1= 59(10)
+RESULTADO:     59(10)
+
+03.) Fazer as conversões de decimal para a base indicada:
+
+a.) 49(10)
+49/4=12 resto 1
+12/4= 3 resto 0
+3/4 = 0 resto 3
+RESULTADO: 301(4)
+
+b.) 61(10)
+61/8=7 resto 5
+7/8 =0 resto 7
+RESULTADO: 75(8)
+
+c.) 77(10)
+77/16=4 resto 13 - D 
+4/16 =0 resto 7
+RESLTADO: 4D(16)
+
+d.) 135(10)
+135/16=8 resto 7
+8/16  =0 resto 8
+RESULTADO: 87(16)
+
+e.) 763(10)
+763/16=47 resto 11 - B
+47/16 =2  resto 15 - F
+2/16  =0  resto  2 
+2FB(16)
+
+04.) Fazer as conversões de base entre as bases indicadas por agrupamento:
+
+a.) 10101(2)
+10101₂ = 01 01 01
+01₂ = 1₄, 01₂ = 1₄, 01₂ = 1₄ 
+RESULTADO: 111₄
+
+b.) 100101(2)
+011 000
+011₂ = 3₈, 000₂ = 0₈
+RESULTADO=30(8)
+
+c.) 100101(2)
+0010 0101
+0010₂ = 2₁₆, 0101₂ = 5₁₆
+RESULTADO: 25₁₆
+
+d.) 101101(2)
+101 101
+101₂ = 5₈, 101₂ = 5₈
+RESULTADO: 55₈
+
+e.) 110101(2)
+11 01 01
+11₂ = 3₄, 01₂ = 1₄, 01₂ = 1₄
+RESLTADO: 311₄
+
+05.) Converter entre símbolos e códigos de representação alfanumérico (ASCII):
+
+a) “PUC-Minas”  ASCII hexadecimal
+P = 0x50
+U = 0x55
+C = 0x43
+
+= 0x2D
+M = 0x4D
+i = 0x69
+n = 0x6E
+a = 0x61
+s = 0x73
+
+RESULTADO: 50 55 43 2D 4D 69 6E 61 73
+
+b) “2026-01”  ASCII hexadecimal
+2 = 0x32
+0 = 0x30
+2 = 0x32
+6 = 0x36
+
+= 0x2D
+0 = 0x30
+1 = 0x31
+
+Resultado: 32 30 32 36 2D 30 31
+
+c) “Minas Gerais”  ASCII binário
+M = 01001101
+i = 01101001
+n = 01101110
+a = 01100001
+s = 01110011
+espaço = 00100000
+G = 01000111
+e = 01100101
+r = 01110010
+a = 01100001
+i = 01101001
+s = 01110011
+
+Resultado: 01001101 01101001 01101110 01100001 01110011 00100000 01000111 01100101 01110010 01100001 01101001 01110011
+
+d) 115 101 116 110 101₈ → ASCII
+115₈ = 1×8² + 1×8¹ + 5×8⁰ = 64 + 8 + 5 = 77₁₀ → 'M'
+101₈ = 64 + 0 + 1 = 65₁₀ → 'A'
+116₈ = 64 + 8 + 6 = 78₁₀ → 'N'
+110₈ = 64 + 8 + 0 = 72₁₀ → 'H'
+101₈ = 65₁₀ → 'A'
+
+Resultado: MANHA
+
+e) 54 61 72 64 65₁₆ → ASCII
+54₁₆ = 84₁₀ → 'T'
+61₁₆ = 97₁₀ → 'a'
+72₁₆ = 114₁₀ → 'r'
+64₁₆ = 100₁₀ → 'd'
+65₁₆ = 101₁₀ → 'e'
+
+Resultado: Tarde
