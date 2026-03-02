@@ -3,7 +3,7 @@ module Guia_0201;
     real x = 0.0;
     real power2 = 1.0;
     integer y = 7;
-    reg[7:0] b=8'b10100000
+    reg[7:0] b=8'b10100000;
 
     initial begin : main
         $display("Guia_0201 - tests");
@@ -15,6 +15,6 @@ module Guia_0201;
             end
             y = y - 1;
         end
-        $display("x=%f(decimal)", x)    
+        $display("x=%f(decimal)", x);    
     end
 endmodule
